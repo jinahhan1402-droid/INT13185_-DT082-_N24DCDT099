@@ -1,4 +1,4 @@
-# [MÃ ĐỀ TÀI] — [TÊN ĐỀ TÀI ĐƯỢC GIAO]
+# DT082 — A* TÌM ĐƯỜNG TRÊN LƯỚI BỐN HƯỚNG
 
 **Khung chưa có thuật toán và chưa có test đạt.** Các lệnh demo/test hiện dừng ở
 lỗi TODO có chủ đích. Không ghi “đã hoàn thành”, “Pass” hoặc dùng số kiểm tra của
@@ -11,7 +11,7 @@ mẫu BFS cho đề tài của mình. Chỉ hoàn thành sau khi thay đúng log
 - Giáo trình: `Giao-trinh-Cau-truc-du-lieu-va-Giai-thuat-INT1306.pdf`.
 - Chương, mục, bài tập, trang in và trang PDF đúng đề: `Chương 6 (Đồ thị và các thuật toán tìm đường), mục tìm kiếm có thông tin / đường đi ngắn nhất trên lưới`.
 - URL GitHub thật: `https://github.com/jinahhan1402-droid/INT13185_-DT082-_N24DCDT099`; SHA chạy C ghi trong báo cáo và TXT nộp rời.
-- Permalink tệp thuật toán tại C: ghi trong báo cáo/TXT; phiên bản Julia: `[ĐIỀN]`.
+- Permalink tệp thuật toán tại C: ghi trong báo cáo/TXT; phiên bản Julia: `1.13.0`.
 
 ## Việc phải thay trước khi nộp
 
@@ -43,8 +43,8 @@ julia --startup-file=no demo.jl
 julia --startup-file=no test/runtests.jl
 ```
 
-Lệnh thực tế, cấu trúc input và output của bài cá nhân: `[ĐIỀN]`.
-Kết quả kiểm thử: `[ĐIỀN SỐ CA, SỐ PHÉP KIỂM TRA, ĐẠT/CHƯA ĐẠT THỰC TẾ]`.
+Lệnh thực tế, cấu trúc input và output của bài cá nhân: `Chạy julia --startup-file=no demo.jl (hoặc --ca=1..8, --nhap). Input là mảng chuỗi ký tự biểu diễn lưới chữ nhật 1 <= R, C <= 100 gồm '.', '#', 'S', 'G'; Output là NamedTuple (tim_thay, duong, chi_phi, S, G, g, cha, trace) trả về tuyến ngắn nhất 4 hướng và chi phí nhỏ nhất (hoặc [], -1 nếu không có đường)`.
+Kết quả kiểm thử: `12 ca kiểm thử độc lập (TC01–TC12), 36 phép kiểm tra (@test / @test_throws), ĐẠT 12/12 (PASS 100%)`.
 Không đổi lỗi TODO thành `@test true` hoặc in “Pass” để thay cho kiểm thử.
 
 ## Công bố mã và kiểm tra bản clone
