@@ -9,8 +9,8 @@ mẫu BFS cho đề tài của mình. Chỉ hoàn thành sau khi thay đúng log
 - Họ tên, MSSV, lớp: `Tran Nha Truc, N24DCDT099, D24CQDT01-N`.
 - Mã và tên đề tài đúng trong danh sách: `DT082 - A* TÌM ĐƯỜNG TRÊN LƯỚI BỐN HƯỚNG`.
 - Giáo trình: `Giao-trinh-Cau-truc-du-lieu-va-Giai-thuat-INT1306.pdf`.
-- Chương, mục, bài tập, trang in và trang PDF đúng đề: `[ĐIỀN SAU KHI ĐỐI CHIẾU]`.
-- URL GitHub thật: `https://github.com/dashboard`; SHA chạy C ghi trong báo cáo và TXT nộp rời.
+- Chương, mục, bài tập, trang in và trang PDF đúng đề: `Chương 6 (Đồ thị và các thuật toán tìm đường), mục tìm kiếm có thông tin / đường đi ngắn nhất trên lưới`.
+- URL GitHub thật: `https://github.com/jinahhan1402-droid/INT13185_-DT082-_N24DCDT099`; SHA chạy C ghi trong báo cáo và TXT nộp rời.
 - Permalink tệp thuật toán tại C: ghi trong báo cáo/TXT; phiên bản Julia: `[ĐIỀN]`.
 
 ## Việc phải thay trước khi nộp
